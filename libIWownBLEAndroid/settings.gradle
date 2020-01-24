@@ -1,0 +1,3 @@
+include ':app', ':tablayoutsupport', ':lib'
+project(':tablayoutsupport').projectDir = new File('RecyclerViewPager/tablayoutsupport')
+project(':lib').projectDir = new File('RecyclerViewPager/lib')
